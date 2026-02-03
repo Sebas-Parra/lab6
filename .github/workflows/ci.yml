@@ -1,5 +1,6 @@
 name: CI Workflow
 
+# Workflow de integración continua
 on:
   push:
     branches: [main]
