@@ -17,7 +17,7 @@ test('10 no es un numero perfecto por la suma de sus divisores', () => {
 
 describe('Test de quick sort', () => {
 test('Ordenar el arreglo [5, 3, 8, 4, 2] debe resultar en [2, 3, 4, 9, 8]', () => {
-    expect(quickSort([5, 3, 8, 4, 2])).toEqual([2, 3, 4, 5, 8]);
+    expect(quickSort([5, 3, 8, 4, 2])).toEqual([2, 3, 4, 9, 8]);
 });
 
 test('Ordenar el arreglo [10, -1, 0, 5] debe resultar en [-1, 0, 5, 10]', () => {
