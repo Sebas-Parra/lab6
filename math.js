@@ -12,7 +12,7 @@ const isPerfect = (num) => {
         }
         return sum === num;
 };
-
+//FUNCTION QUICK SORT
 const quickSort = (arr) => {
     if (arr.length <= 1) {
         return arr;
