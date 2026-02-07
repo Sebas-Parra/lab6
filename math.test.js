@@ -11,12 +11,12 @@ test('6 es un numero perfecto por la suma de sus divisores', () => {
 
 test('10 no es un numero perfecto por la suma de sus divisores', () => {
     expect(isPerfect(10)).toBe(false);
-});
+})
 
 });
 
 describe('Test de quick sort', () => {
-test('Ordenar el arreglo [5, 3, 8, 4, 2] debe resultar en [2, 3, 4, 5, 8]', () => {
+test('Ordenar el arreglo [5, 3, 8, 4, 2] debe resultar en [2, 3, 4, 9, 8]', () => {
     expect(quickSort([5, 3, 8, 4, 2])).toEqual([2, 3, 4, 5, 8]);
 });
 
